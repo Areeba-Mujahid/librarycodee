@@ -1,0 +1,14 @@
+class Employee:
+    
+
+    def __init__(self, employee_id, first_name, last_name, department, salary):
+        
+        self.employee_id = employee_id
+        self.first_name = first_name
+        self.last_name = last_name
+        self.department = department
+        self.salary = salary
+
+    def get_full_name(self):
+        
+        return f"{self.first_name} {self.last_name}"
